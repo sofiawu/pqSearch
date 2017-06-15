@@ -7,7 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BE59A8C1EF2FD1500A78E98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59A8B1EF2FD1500A78E98 /* main.cpp */; };
+		3BE59AEC1EF308D100A78E98 /* AutoTune.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AC81EF308D100A78E98 /* AutoTune.cpp */; };
+		3BE59AED1EF308D100A78E98 /* AuxIndexStructures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59ACA1EF308D100A78E98 /* AuxIndexStructures.cpp */; };
+		3BE59AEE1EF308D100A78E98 /* Clustering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59ACC1EF308D100A78E98 /* Clustering.cpp */; };
+		3BE59AEF1EF308D100A78E98 /* hamming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AD01EF308D100A78E98 /* hamming.cpp */; };
+		3BE59AF01EF308D100A78E98 /* Heap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AD21EF308D100A78E98 /* Heap.cpp */; };
+		3BE59AF11EF308D100A78E98 /* index_io.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AD41EF308D100A78E98 /* index_io.cpp */; };
+		3BE59AF21EF308D100A78E98 /* Index.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AD61EF308D100A78E98 /* Index.cpp */; };
+		3BE59AF31EF308D100A78E98 /* IndexFlat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AD81EF308D100A78E98 /* IndexFlat.cpp */; };
+		3BE59AF41EF308D100A78E98 /* IndexIVF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59ADA1EF308D100A78E98 /* IndexIVF.cpp */; };
+		3BE59AF51EF308D100A78E98 /* IndexIVFPQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59ADC1EF308D100A78E98 /* IndexIVFPQ.cpp */; };
+		3BE59AF61EF308D100A78E98 /* IndexLSH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59ADE1EF308D100A78E98 /* IndexLSH.cpp */; };
+		3BE59AF71EF308D100A78E98 /* IndexPQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AE01EF308D100A78E98 /* IndexPQ.cpp */; };
+		3BE59AF81EF308D100A78E98 /* MetaIndexes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AE21EF308D100A78E98 /* MetaIndexes.cpp */; };
+		3BE59AF91EF308D100A78E98 /* PolysemousTraining.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AE41EF308D100A78E98 /* PolysemousTraining.cpp */; };
+		3BE59AFA1EF308D100A78E98 /* ProductQuantizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AE61EF308D100A78E98 /* ProductQuantizer.cpp */; };
+		3BE59AFB1EF308D100A78E98 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AE81EF308D100A78E98 /* utils.cpp */; };
+		3BE59AFC1EF308D100A78E98 /* VectorTransform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59AEA1EF308D100A78E98 /* VectorTransform.cpp */; };
+		3BE59AFF1EF309C600A78E98 /* libopenblasp-r0.2.15.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE59AFE1EF309C600A78E98 /* libopenblasp-r0.2.15.a */; };
+		3BE59B091EF30BB000A78E98 /* demo_imi_flat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59B041EF30BB000A78E98 /* demo_imi_flat.cpp */; };
+		3BE59B0A1EF30BB000A78E98 /* demo_ivfpq_indexing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59B051EF30BB000A78E98 /* demo_ivfpq_indexing.cpp */; };
+		3BE59B0B1EF30BB000A78E98 /* demo_sift1M.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59B061EF30BB000A78E98 /* demo_sift1M.cpp */; };
+		3BE59B0C1EF30BB000A78E98 /* test_blas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3BE59B071EF30BB000A78E98 /* test_blas.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +45,48 @@
 
 /* Begin PBXFileReference section */
 		3BE59A881EF2FD1500A78E98 /* pqsearch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pqsearch; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE59A8B1EF2FD1500A78E98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3BE59AC71EF3087E00A78E98 /* omp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = omp.h; sourceTree = "<group>"; };
+		3BE59AC81EF308D100A78E98 /* AutoTune.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AutoTune.cpp; sourceTree = "<group>"; };
+		3BE59AC91EF308D100A78E98 /* AutoTune.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoTune.h; sourceTree = "<group>"; };
+		3BE59ACA1EF308D100A78E98 /* AuxIndexStructures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AuxIndexStructures.cpp; sourceTree = "<group>"; };
+		3BE59ACB1EF308D100A78E98 /* AuxIndexStructures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuxIndexStructures.h; sourceTree = "<group>"; };
+		3BE59ACC1EF308D100A78E98 /* Clustering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Clustering.cpp; sourceTree = "<group>"; };
+		3BE59ACD1EF308D100A78E98 /* Clustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clustering.h; sourceTree = "<group>"; };
+		3BE59ACE1EF308D100A78E98 /* faiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faiss.h; sourceTree = "<group>"; };
+		3BE59ACF1EF308D100A78E98 /* FaissAssert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaissAssert.h; sourceTree = "<group>"; };
+		3BE59AD01EF308D100A78E98 /* hamming.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hamming.cpp; sourceTree = "<group>"; };
+		3BE59AD11EF308D100A78E98 /* hamming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hamming.h; sourceTree = "<group>"; };
+		3BE59AD21EF308D100A78E98 /* Heap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heap.cpp; sourceTree = "<group>"; };
+		3BE59AD31EF308D100A78E98 /* Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		3BE59AD41EF308D100A78E98 /* index_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = index_io.cpp; sourceTree = "<group>"; };
+		3BE59AD51EF308D100A78E98 /* index_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = index_io.h; sourceTree = "<group>"; };
+		3BE59AD61EF308D100A78E98 /* Index.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Index.cpp; sourceTree = "<group>"; };
+		3BE59AD71EF308D100A78E98 /* Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Index.h; sourceTree = "<group>"; };
+		3BE59AD81EF308D100A78E98 /* IndexFlat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexFlat.cpp; sourceTree = "<group>"; };
+		3BE59AD91EF308D100A78E98 /* IndexFlat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexFlat.h; sourceTree = "<group>"; };
+		3BE59ADA1EF308D100A78E98 /* IndexIVF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexIVF.cpp; sourceTree = "<group>"; };
+		3BE59ADB1EF308D100A78E98 /* IndexIVF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexIVF.h; sourceTree = "<group>"; };
+		3BE59ADC1EF308D100A78E98 /* IndexIVFPQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexIVFPQ.cpp; sourceTree = "<group>"; };
+		3BE59ADD1EF308D100A78E98 /* IndexIVFPQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexIVFPQ.h; sourceTree = "<group>"; };
+		3BE59ADE1EF308D100A78E98 /* IndexLSH.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexLSH.cpp; sourceTree = "<group>"; };
+		3BE59ADF1EF308D100A78E98 /* IndexLSH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexLSH.h; sourceTree = "<group>"; };
+		3BE59AE01EF308D100A78E98 /* IndexPQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IndexPQ.cpp; sourceTree = "<group>"; };
+		3BE59AE11EF308D100A78E98 /* IndexPQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexPQ.h; sourceTree = "<group>"; };
+		3BE59AE21EF308D100A78E98 /* MetaIndexes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetaIndexes.cpp; sourceTree = "<group>"; };
+		3BE59AE31EF308D100A78E98 /* MetaIndexes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaIndexes.h; sourceTree = "<group>"; };
+		3BE59AE41EF308D100A78E98 /* PolysemousTraining.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolysemousTraining.cpp; sourceTree = "<group>"; };
+		3BE59AE51EF308D100A78E98 /* PolysemousTraining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolysemousTraining.h; sourceTree = "<group>"; };
+		3BE59AE61EF308D100A78E98 /* ProductQuantizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProductQuantizer.cpp; sourceTree = "<group>"; };
+		3BE59AE71EF308D100A78E98 /* ProductQuantizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductQuantizer.h; sourceTree = "<group>"; };
+		3BE59AE81EF308D100A78E98 /* utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		3BE59AE91EF308D100A78E98 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		3BE59AEA1EF308D100A78E98 /* VectorTransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorTransform.cpp; sourceTree = "<group>"; };
+		3BE59AEB1EF308D100A78E98 /* VectorTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorTransform.h; sourceTree = "<group>"; };
+		3BE59AFE1EF309C600A78E98 /* libopenblasp-r0.2.15.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopenblasp-r0.2.15.a"; path = "../../../../../usr/local/Cellar/openblas/0.2.15/lib/libopenblasp-r0.2.15.a"; sourceTree = "<group>"; };
+		3BE59B041EF30BB000A78E98 /* demo_imi_flat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = demo_imi_flat.cpp; path = tests/demo_imi_flat.cpp; sourceTree = "<group>"; };
+		3BE59B051EF30BB000A78E98 /* demo_ivfpq_indexing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = demo_ivfpq_indexing.cpp; path = tests/demo_ivfpq_indexing.cpp; sourceTree = "<group>"; };
+		3BE59B061EF30BB000A78E98 /* demo_sift1M.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = demo_sift1M.cpp; path = tests/demo_sift1M.cpp; sourceTree = "<group>"; };
+		3BE59B071EF30BB000A78E98 /* test_blas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_blas.cpp; path = tests/test_blas.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE59AFF1EF309C600A78E98 /* libopenblasp-r0.2.15.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +106,7 @@
 			children = (
 				3BE59A8A1EF2FD1500A78E98 /* pqsearch */,
 				3BE59A891EF2FD1500A78E98 /* Products */,
+				3BE59AFD1EF309C600A78E98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +121,65 @@
 		3BE59A8A1EF2FD1500A78E98 /* pqsearch */ = {
 			isa = PBXGroup;
 			children = (
-				3BE59A8B1EF2FD1500A78E98 /* main.cpp */,
+				3BE59B031EF30BA000A78E98 /* test */,
+				3BE59AC81EF308D100A78E98 /* AutoTune.cpp */,
+				3BE59AC91EF308D100A78E98 /* AutoTune.h */,
+				3BE59ACA1EF308D100A78E98 /* AuxIndexStructures.cpp */,
+				3BE59ACB1EF308D100A78E98 /* AuxIndexStructures.h */,
+				3BE59ACC1EF308D100A78E98 /* Clustering.cpp */,
+				3BE59ACD1EF308D100A78E98 /* Clustering.h */,
+				3BE59ACE1EF308D100A78E98 /* faiss.h */,
+				3BE59ACF1EF308D100A78E98 /* FaissAssert.h */,
+				3BE59AD01EF308D100A78E98 /* hamming.cpp */,
+				3BE59AD11EF308D100A78E98 /* hamming.h */,
+				3BE59AD21EF308D100A78E98 /* Heap.cpp */,
+				3BE59AD31EF308D100A78E98 /* Heap.h */,
+				3BE59AD41EF308D100A78E98 /* index_io.cpp */,
+				3BE59AD51EF308D100A78E98 /* index_io.h */,
+				3BE59AD61EF308D100A78E98 /* Index.cpp */,
+				3BE59AD71EF308D100A78E98 /* Index.h */,
+				3BE59AD81EF308D100A78E98 /* IndexFlat.cpp */,
+				3BE59AD91EF308D100A78E98 /* IndexFlat.h */,
+				3BE59ADA1EF308D100A78E98 /* IndexIVF.cpp */,
+				3BE59ADB1EF308D100A78E98 /* IndexIVF.h */,
+				3BE59ADC1EF308D100A78E98 /* IndexIVFPQ.cpp */,
+				3BE59ADD1EF308D100A78E98 /* IndexIVFPQ.h */,
+				3BE59ADE1EF308D100A78E98 /* IndexLSH.cpp */,
+				3BE59ADF1EF308D100A78E98 /* IndexLSH.h */,
+				3BE59AE01EF308D100A78E98 /* IndexPQ.cpp */,
+				3BE59AE11EF308D100A78E98 /* IndexPQ.h */,
+				3BE59AE21EF308D100A78E98 /* MetaIndexes.cpp */,
+				3BE59AE31EF308D100A78E98 /* MetaIndexes.h */,
+				3BE59AE41EF308D100A78E98 /* PolysemousTraining.cpp */,
+				3BE59AE51EF308D100A78E98 /* PolysemousTraining.h */,
+				3BE59AE61EF308D100A78E98 /* ProductQuantizer.cpp */,
+				3BE59AE71EF308D100A78E98 /* ProductQuantizer.h */,
+				3BE59AE81EF308D100A78E98 /* utils.cpp */,
+				3BE59AE91EF308D100A78E98 /* utils.h */,
+				3BE59AEA1EF308D100A78E98 /* VectorTransform.cpp */,
+				3BE59AEB1EF308D100A78E98 /* VectorTransform.h */,
+				3BE59AC71EF3087E00A78E98 /* omp.h */,
 			);
 			path = pqsearch;
+			sourceTree = "<group>";
+		};
+		3BE59AFD1EF309C600A78E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE59AFE1EF309C600A78E98 /* libopenblasp-r0.2.15.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BE59B031EF30BA000A78E98 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				3BE59B041EF30BB000A78E98 /* demo_imi_flat.cpp */,
+				3BE59B051EF30BB000A78E98 /* demo_ivfpq_indexing.cpp */,
+				3BE59B061EF30BB000A78E98 /* demo_sift1M.cpp */,
+				3BE59B071EF30BB000A78E98 /* test_blas.cpp */,
+			);
+			name = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +240,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE59A8C1EF2FD1500A78E98 /* main.cpp in Sources */,
+				3BE59AF71EF308D100A78E98 /* IndexPQ.cpp in Sources */,
+				3BE59AFB1EF308D100A78E98 /* utils.cpp in Sources */,
+				3BE59AF11EF308D100A78E98 /* index_io.cpp in Sources */,
+				3BE59AEF1EF308D100A78E98 /* hamming.cpp in Sources */,
+				3BE59B0B1EF30BB000A78E98 /* demo_sift1M.cpp in Sources */,
+				3BE59AF21EF308D100A78E98 /* Index.cpp in Sources */,
+				3BE59AEC1EF308D100A78E98 /* AutoTune.cpp in Sources */,
+				3BE59AF81EF308D100A78E98 /* MetaIndexes.cpp in Sources */,
+				3BE59AF61EF308D100A78E98 /* IndexLSH.cpp in Sources */,
+				3BE59B0A1EF30BB000A78E98 /* demo_ivfpq_indexing.cpp in Sources */,
+				3BE59AF51EF308D100A78E98 /* IndexIVFPQ.cpp in Sources */,
+				3BE59B0C1EF30BB000A78E98 /* test_blas.cpp in Sources */,
+				3BE59AFA1EF308D100A78E98 /* ProductQuantizer.cpp in Sources */,
+				3BE59AF31EF308D100A78E98 /* IndexFlat.cpp in Sources */,
+				3BE59B091EF30BB000A78E98 /* demo_imi_flat.cpp in Sources */,
+				3BE59AF91EF308D100A78E98 /* PolysemousTraining.cpp in Sources */,
+				3BE59AF41EF308D100A78E98 /* IndexIVF.cpp in Sources */,
+				3BE59AF01EF308D100A78E98 /* Heap.cpp in Sources */,
+				3BE59AFC1EF308D100A78E98 /* VectorTransform.cpp in Sources */,
+				3BE59AED1EF308D100A78E98 /* AuxIndexStructures.cpp in Sources */,
+				3BE59AEE1EF308D100A78E98 /* Clustering.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +360,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 99BH65ZR59;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/openblas/0.2.15/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/openblas/0.2.15/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -228,6 +373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 99BH65ZR59;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/openblas/0.2.15/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/openblas/0.2.15/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
